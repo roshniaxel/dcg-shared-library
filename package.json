@@ -1,0 +1,50 @@
+{
+  "name": "fiveheart-shared-library",
+  "version": "1.9.0",
+  "description": "Shared component library for FiveHeart projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "next": "^15.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "styled-jsx": "^5.1.6",
+    "swiper": "^11.2.5"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.5",
+    "@storybook/addon-essentials": "^8.6.3",
+    "@storybook/addon-interactions": "^8.6.3",
+    "@storybook/addon-links": "^8.6.3",
+    "@storybook/addon-onboarding": "^8.6.4",
+    "@storybook/addon-webpack5-compiler-babel": "^3.0.5",
+    "@storybook/blocks": "^8.6.4",
+    "@storybook/nextjs": "^8.6.3",
+    "@storybook/react": "^8.6.3",
+    "@storybook/react-vite": "^8.6.3",
+    "@storybook/test": "^8.6.4",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@types/styled-jsx": "^2.2.9",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "storybook": "^8.6.4",
+    "tailwindcss": "^4.0.9",
+    "typescript": "^5.8.2"
+  },
+  "license": "ISC"
+}

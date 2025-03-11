@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "module": "CommonJS",
+      "target": "ES6",
+      "jsx": "react-jsx",
+      "declaration": true,
+      "declarationMap": true,
+      "moduleResolution": "Node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "types": ["styled-jsx"]
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "dist"]
+  }
+  
